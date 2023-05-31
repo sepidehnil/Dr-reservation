@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  select {
+    appearance: none;
+  }
+}
+
+@layer components {
+  .card {
+    @apply w-[200px] bg-sky-300 flex flex-col items-center h-[220px] rounded-lg;
+  }
+  .active-btn {
+    @apply !bg-indigo-500;
+  }
+}
